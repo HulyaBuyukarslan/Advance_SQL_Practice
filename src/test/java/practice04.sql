@@ -13,9 +13,8 @@ select * from kitaplarım;
 
 -------------- Practice 1 -----------------
 -- Tabloya kitap ekleyen methodu yazınız.
-create or replace function kitap_ekle (kitap_id integer,
-									   kitap_isim varchar,
-									   kitap_yazar varchar)
+create or replace function kitap_ekle (kitap_id integer,kitap_isim varchar, kitap_yazar varchar)
+
 returns void
 language plpgsql
 as
@@ -31,9 +30,8 @@ select * from kitaplarım
 
 --------------- Practice 2 ---------------
 -- Tabloyu update eden methodu yazınız.
-create or replace function kitap_guncelle(kitap_id integer,
-									   kitap_isim varchar,
-									   kitap_yazar varchar)
+create or replace function kitap_guncelle(kitap_id integer, kitap_isim varchar,kitap_yazar varchar)
+
 returns void
 language plpgsql
 as
@@ -50,9 +48,8 @@ select * from kitaplarım;
 --------------- Practice 3 ---------------
 -- Tablodan veri silen bir method yazınız.
 
-create or replace function kitap_silme(kitap_id integer,
-									   kitap_isim varchar,
-									   kitap_yazar varchar)
+create or replace function kitap_silme(kitap_id integer, kitap_isim varchar, kitap_yazar varchar)
+
 returns void
 language plpgsql
 as
