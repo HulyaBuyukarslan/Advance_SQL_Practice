@@ -23,7 +23,7 @@ begin
 insert into kitaplarım (id,isim,yazar) values (kitap_id,kitap_isim,kitap_yazar);
 end $$;
 
-select kitap_ekle (4,'Huzursuzluk', 'Zülfi Livaneli');
+select kitap_ekle (4,'Huzursuzluk', 'Zülfü Livaneli');
 select kitap_ekle (5,'Bozbulanık', 'Nezihe Meriç');
 
 select * from kitaplarım
