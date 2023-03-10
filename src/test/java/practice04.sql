@@ -60,5 +60,5 @@ delete from kitaplarım where yazar=kitap_yazar;
 delete from kitaplarım where id=kitap_id;
 end $$;
 
-select kitap_silme(4,'Huzursuzluk','Zülfi Livaneli');
+select kitap_silme(4,'Huzursuzluk','Zülfü Livaneli');
 select * from kitaplarım;
